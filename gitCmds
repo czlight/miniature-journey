@@ -1,0 +1,22 @@
+#Author: A. Reyes
+#Date: December 20, 2019
+#Title: Useful Git Commands
+
+git branch -a – shows existing branches in repository
+git status – shows changed files (in red) and staged filed (in green). Do this before adding or committing files.
+git reset --hard – use to reset/revert all local changes
+git pull – use to get latest changes from remote repository (synonymous to SVNUpdate) 
+	I’ve been using git pull origin develop with better/same? results
+git paccar mup – used to update all repositories as pointed to by the manifest.
+git branch –d BranchName – use to delete a  local branch
+git lfs lock SignalDB.mdb – use to get lock in signal database
+git lfs unlock SignalDB.mdb
+	use argument --force to above to break other user’s lock (if held overnight)
+git lfs locks – use to see existing locks i.e., is it locked and by who?
+git add –u – stage files that are already under version control
+git clean –fx – delete untracked files. ex:
+git clean –fd  - remove directories
+git stash list – lists modifications stashed away by git stash command
+git stash show – lists files and modifications (better than ‘list’ above)
+git stash clear – deletes all stashed files
+echo –n “some-text” | openssl sha1 – sha1 representation of the string. Can also use sha256
