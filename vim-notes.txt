@@ -1,8 +1,9 @@
-#notes.txt
+#vim-notes.txt
 #Document what I remember about vim
 
 :q - quit
 :w - save
+Note: concatenation of commands is possible (e.g. :wq to save then quit)
 i - enter insert mode
 <Esc> - exit insert mode (enter command mode)
 k - move up
