@@ -9,6 +9,8 @@ git pull – use to get latest changes from remote repository (synonymous to SVN
 	I’ve been using git pull origin develop with better/same? results
 git paccar mup – used to update all repositories as pointed to by the manifest.
 git branch –d BranchName – use to delete a  local branch
+git push -d origin BranchName - use to delete remote branch
+git reset --hard - use to undo all local changes
 git lfs lock SignalDB.mdb – use to get lock in signal database
 git lfs unlock SignalDB.mdb
 	use argument --force to above to break other user’s lock (if held overnight)
