@@ -1,5 +1,6 @@
 #vim-notes.txt
 #Document what I remember about vim
+#https://www.cduan.com/technical/vi/vi-1.shtml
 
 :q - quit
 :w - save
@@ -19,5 +20,5 @@ set list
 set listchars
 :x - quit without saving
 
-:help help_file.txt - replace help_file.txt with actual help fil
+:help help_file.txt - replace help_file.txt with actual help file
 set listchars=eol:!
