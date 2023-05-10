@@ -18,7 +18,7 @@ represented as:
 	j
 set list
 set listchars
-:x - quit without saving
+:x - save and quit
 
 :help help_file.txt - replace help_file.txt with actual help file
 set listchars=eol:!
